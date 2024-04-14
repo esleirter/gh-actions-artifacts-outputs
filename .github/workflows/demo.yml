@@ -39,7 +39,7 @@ jobs:
       - name: Dowload artifact
         uses: actions/download-artifact@v4
         with:
-          name: download-build
+          name: artifact-build
       - name: Output files
         run: ls -lha
       - name: Deploying files
